@@ -1,7 +1,9 @@
 # Linux
+#
 一、Windows10建立Linux子系统
+##
 1、启用开发者模式
-#设置
+设置
 ![image](https://user-images.githubusercontent.com/48665991/126938547-fc695405-296d-404c-a508-5a5ebfddc436.png)
 
 #更新和安全
