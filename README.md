@@ -2,13 +2,14 @@
 一、Windows10建立Linux子系统
 ##
 1、启用开发者模式
-#
+##
 设置
 ![image](https://user-images.githubusercontent.com/48665991/126938547-fc695405-296d-404c-a508-5a5ebfddc436.png)
-#
+##
 更新和安全
-![5d8e78fc2da5b7602e531a698eec6b0](https://user-images.githubusercontent.com/48665991/126922010-5330889a-89fc-44d6-85e6-82b6b3968962.png)
-#
+![image](https://user-images.githubusercontent.com/48665991/126939167-514384f1-dcac-47e0-9720-f0fdeda7d87b.png)
+##
 选择开发者选项>开发人员模式切换到开
-![180e563592fd63897f344f478a78458](https://user-images.githubusercontent.com/48665991/126922251-e69ca9bd-be76-42d8-8b27-e23982a38ebc.png)
+![image](https://user-images.githubusercontent.com/48665991/126939238-f8ba8549-62ba-4ca3-aa1e-693081554aa1.png)
+
 
