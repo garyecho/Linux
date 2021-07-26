@@ -14,5 +14,11 @@ Linux
 ---
 顺序： -> 系统设置 -> 应用 -> 右侧的程序和功能 -> 启动或关闭windows功能 -> 勾选适用于 Linux 的 Windows 子系统<br>
 确定后，重启电脑，系统更新配置<br>
+![edb0e07098f3c904ac9b4f005f92181](https://user-images.githubusercontent.com/48665991/126941849-4af95559-f9d3-4064-bb4c-09f1fb97fea3.png)<br>
+3、安装 Linux 子系统<br>
+---<br>
+
+打开 Windows 应用市场，输入 linux 搜索，选择你自己想要的系统版本，我选择的是 Ubuntu ，然后下载安装，微软的下载速度还是挺快的，很快就下载完了。
+
 
 
