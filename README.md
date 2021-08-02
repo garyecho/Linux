@@ -19,6 +19,11 @@ Linux
 ---
 打开 Windows 应用市场，搜索Ubuntu，选择LTS版本下载。<br>
 ![cbb460a90d479478de324e97e9910be](https://user-images.githubusercontent.com/48665991/126942466-cc3623f7-61c7-4624-b5d0-e4b14b4edfb9.png)<br>
+开始菜单出现红圈内图标表示安装成功<br>
+![2d877d82984d285574360386c8452ed](https://user-images.githubusercontent.com/48665991/127791804-8144ff7b-54b9-440f-bac2-6b2ab0f1a08e.png)<br>
+点击图标ubuntu会自动进行安装，安装完毕设置用户名密码<br>
+![image](https://user-images.githubusercontent.com/48665991/127791889-e26353fd-62a8-4a3e-b520-caef35c52a15.png)<br>
+
 
 
 
