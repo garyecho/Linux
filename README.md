@@ -43,7 +43,7 @@ Linux
 ---
 3.1进入电脑BIOS界面，设置U盘启动，重启<br>
 ![微信图片_20210831150240](https://user-images.githubusercontent.com/48665991/131457832-733e36cc-f3a8-4e7f-8483-5e2b688b278a.png)<br>
-3.2按e进行编辑
+3.2按e进行编辑<br>
 ![45783091d67dc2f42c873ee315601c4](https://user-images.githubusercontent.com/48665991/131458072-43ae75ca-8588-4703-9850-4cf0b277cbef.png)<br>
 **此处的“LABEL=CentOS\x207\x20x\86_64 quiet”指的是U盘的LABEL，如果此处的LABEL和U盘明不一致会导致无法安装，所以需要删除一部分信息，将6_64删除即可**<br>
 ![ed75cebd8003801965c9a451c82d9ea](https://user-images.githubusercontent.com/48665991/131458624-595d715a-f7cc-4278-bb9f-2919b6b9bcee.png)<br>
