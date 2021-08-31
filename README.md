@@ -25,6 +25,23 @@ Linux
 ![image](https://user-images.githubusercontent.com/48665991/127791889-e26353fd-62a8-4a3e-b520-caef35c52a15.png)<br>
 
 
+二、服务器安装Cent OS7<br>
+===
+1、下载镜像文件<br>
+---
+进入Cent OS官网，依次点击download——7（2009）——x86_64<br>
+![85e91901d86070de4e96a8fa2f4fcbc](https://user-images.githubusercontent.com/48665991/131455366-ca1fa42b-a825-422c-ad73-fd5df05ed0e4.png)<br>
+以清华软件镜像站为例，下载后缀名为DVD-2009-iso文件<br>
+![c459f33675f134a294c92230b043382](https://user-images.githubusercontent.com/48665991/131455327-0c58e12d-f8da-446f-943c-bfd8472f495b.png)<br>
+2、刻录镜像文件<br>
+---
+2.1安装UltraISO<br>
+2.2找到Cent OS所在文件夹打开<br>
+2.3点击顶部菜单中的_启动_，选择写入_硬盘镜像_<br>
+
+
+
+
 
 
 
