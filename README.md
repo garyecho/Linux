@@ -53,9 +53,27 @@ Linux
 三、CentOS 7修改ssh远程登陆默认端口<br>
 ===
 1、修改ssh配置文件
+---
 ```
 vim /etc/ssh/sshd_config 
 ```
+![8df480ae403b019ecc51cd9b39add57](https://user-images.githubusercontent.com/48665991/131630004-5d2a46de-fbcc-45d0-a86a-27d3be087fc7.png)<br>
+找到“#Port 22”,把两行的“#”号即注释去掉，修改成：<br>
+Port 22<br>
+Port 10086<br>
+SSH默认监听端口是22，如果不强制说明别的端口，”Port 22”注不注释都是开放22访问端口<br>
+2、SELinux开放给ssh使用的端口<br>
+---
+使用SELinux给SSH开放25316端口：
+```
+semanage port -a -t ssh_port_t -p tcp 25316
+```
+完成后，查看SELinux开放给ssh使用的端口<br>
+```
+semanage port -l|grep ssh  
+```
+ssh_port_t                     tcp      25316, 22
+
 
 
 
