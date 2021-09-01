@@ -82,19 +82,19 @@ semanage port -l|grep ssh
 3、防火墙设置<br/>
 ---
 防火墙开启了25316端口：<br>
-```firewall-cmd --permanent--add-port=10086/tcp  ```
+```firewall-cmd --permanent--add-port=10086/tcp  ```<br>
 打印结果：success<br>
 重新加载防火墙策略：<br>
-```firewall-cmd --reload  ```
+```firewall-cmd --reload  ```<br>
 执行成功后，查看25316端口是否被开启：<br>
-```firewall-cmd --permanent--query-port=25316/tcp ```
+```firewall-cmd --permanent--query-port=25316/tcp ```<br>
 输出结果：yes<br>
 
 4、重启ssh、防火墙、网络服务<br/>
 ---
-```systemctl restart sshd  ```
-```systemctl restart firewalld.service  ```
-```service network restart```
+```systemctl restart sshd  ```<br>
+```systemctl restart firewalld.service  ```<br>
+```service network restart```<br>
 
 5、尝试通过25316端口登录SSH：<br/>
 ---
