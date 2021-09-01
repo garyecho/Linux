@@ -49,9 +49,13 @@ Linux
 ![ed75cebd8003801965c9a451c82d9ea](https://user-images.githubusercontent.com/48665991/131458624-595d715a-f7cc-4278-bb9f-2919b6b9bcee.png)<br>
 3.3按Ctrl+x保存退出，即可弹出如下界面<br>
 ![image](https://user-images.githubusercontent.com/48665991/131461275-037405a0-41e1-4222-af0b-2b45a596b4df.png)<br>
-按照指引即可完成安装CentOS 7
-
-
+按照指引即可完成安装CentOS 7<br>
+三、CentOS 7修改ssh远程登陆默认端口<br>
+===
+1、修改ssh配置文件
+```
+vim /etc/ssh/sshd_config 
+```
 
 
 
