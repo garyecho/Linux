@@ -52,7 +52,7 @@ Linux
 按照指引即可完成安装CentOS 7<br>
 
 
-三、CentOS 7修改ssh远程登陆默认端口<br>
+三、CentOS 7修改ssh远程登陆默认端口<br/>
 ===
 1、修改ssh配置文件
 ---
@@ -61,11 +61,13 @@ Linux
 vim /etc/ssh/sshd_config 
 ```
 ![8df480ae403b019ecc51cd9b39add57](https://user-images.githubusercontent.com/48665991/131630004-5d2a46de-fbcc-45d0-a86a-27d3be087fc7.png)<br>
+
 找到“#Port 22”,把两行的“#”号即注释去掉，修改成：<br>
 Port 22<br>
 Port 10086<br>
 SSH默认监听端口是22，如果不强制说明别的端口，”Port 22”注不注释都是开放22访问端口<br>
-2、SELinux开放给ssh使用的端口<br>
+
+2、SELinux开放给ssh使用的端口<br/>
 ---
 使用SELinux给SSH开放25316端口：
 ```
@@ -76,6 +78,27 @@ semanage port -a -t ssh_port_t -p tcp 25316
 semanage port -l|grep ssh  
 ```
 输出结果：```ssh_port_t                     tcp      25316, 22```
+
+3、防火墙设置<br/>
+---
+防火墙开启了25316端口：<br>
+```firewall-cmd --permanent--add-port=10086/tcp  ```
+打印结果：success<br>
+重新加载防火墙策略：<br>
+```firewall-cmd --reload  ```
+执行成功后，查看25316端口是否被开启：<br>
+```firewall-cmd --permanent--query-port=25316/tcp ```
+输出结果：yes<br>
+
+4、重启ssh、防火墙、网络服务<br/>
+---
+```systemctl restart sshd  ```
+```systemctl restart firewalld.service  ```
+```service network restart```
+
+5、尝试通过25316端口登录SSH：<br/>
+---
+```ssh root@localhost -p 25316```  
 
 
 
