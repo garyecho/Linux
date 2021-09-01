@@ -56,7 +56,7 @@ Linux
 ===
 1、修改ssh配置文件
 ---
-<br>
+
 ```
 vim /etc/ssh/sshd_config 
 ```
@@ -75,9 +75,8 @@ semanage port -a -t ssh_port_t -p tcp 25316
 ```
 semanage port -l|grep ssh  
 ```
-```
-ssh_port_t                     tcp      25316, 22
-```
+输出结果：```ssh_port_t                     tcp      25316, 22```
+
 
 
 
