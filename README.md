@@ -87,7 +87,7 @@ semanage port -l|grep ssh
 重新加载防火墙策略：<br>
 ```firewall-cmd --reload  ```<br>
 执行成功后，查看25316端口是否被开启：<br>
-```firewall-cmd --permanent--query-port=25316/tcp ```<br>
+```firewall-cmd --permanent --query-port=25316/tcp ```<br>
 输出结果：yes<br>
 
 4、重启ssh、防火墙、网络服务<br/>
